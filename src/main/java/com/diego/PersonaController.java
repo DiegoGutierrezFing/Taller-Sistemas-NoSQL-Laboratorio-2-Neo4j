@@ -1,10 +1,10 @@
 package com.diego;
 
-import com.chronicler.model.Comenta;
-import com.chronicler.model.Comentario;
-import com.chronicler.model.Persona;
-import com.chronicler.repo.ComentaRepository;
-import com.chronicler.repo.PersonaRepository;
+import com.diego.model.Comenta;
+import com.diego.model.Comentario;
+import com.diego.model.Persona;
+import com.diego.repo.ComentaRepository;
+import com.diego.repo.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
