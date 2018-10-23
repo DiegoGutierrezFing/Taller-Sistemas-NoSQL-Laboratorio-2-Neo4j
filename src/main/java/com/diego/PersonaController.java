@@ -1,15 +1,15 @@
 package com.diego;
 
-import com.diego.model.Comenta;
-import com.diego.model.Comentario;
-import com.diego.model.Persona;
-import com.diego.repo.ComentaRepository;
-import com.diego.repo.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.diego.model.Comenta;
+import com.diego.model.Persona;
+import com.diego.repositorios.ComentaRepository;
+import com.diego.repositorios.PersonaRepository;
 
 @RestController
 public class PersonaController {
