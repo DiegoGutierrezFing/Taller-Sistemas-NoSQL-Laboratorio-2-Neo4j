@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
 
-import com.chronicler.model.Persona;
-import com.chronicler.model.Comenta;
-import com.chronicler.model.Comentario;
+import com.diego.model.Persona;
+import com.diego.model.Comenta;
+import com.diego.model.Comentario;
 
 @Configuration
 public class Neo4JRepositoryRestMvcConfiguration extends RepositoryRestMvcConfiguration  {
